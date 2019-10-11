@@ -1,0 +1,11 @@
+﻿a.link1:link,a.link1:visited {
+    color:#fff;
+    font-size:30pt;
+    text-decoration:none;
+}
+
+a.link1:hover {
+    color:#808080;
+    font-size:30pt;
+    text-decoration:none;
+}
