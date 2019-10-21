@@ -13,8 +13,8 @@
 </head>
 <body style="background-color:#000000">
     <form id="form1" runat="server">
-        <!--設為固定600px寬度-->
-        <div style="width:600px">
+        <!--設為固定700px寬度-->
+        <div style="width:700px">
             <!--第一行 Logo-->
             <div style="height:100px; background:#ff0000 url(imgs/logo.png) no-repeat left" ></div>
 
@@ -45,13 +45,11 @@
                         <p>新超值全餐</p>
                         <p>自由配任你選</p>
                     </div>
-                    <div class="col">
-                        <asp:LinkButton ID="LinkButton6" runat="server" OnClick="LinkButton6_Click">
-                           <i class="fa fa-plus-square" style="color:#ffffff; position:absolute; right:10px; bottom:10px"></i>
-                        </asp:LinkButton>
+                    <div class="col">           
+                        <asp:Button ID="Button1" runat="server" style="position:absolute; right:10px; bottom:10px" Text="+" OnClick="Button1_Click" />
                     </div>
                 </div>
-                <div id="meal_1"  runat="Server" style="display:none"><img src="imgs/p3.png" /></div>
+                <asp:Panel ID="Panel1" runat="server" Visible="False"><img src="imgs/p3.png" /></asp:Panel>
             </div>
 
             <!--第四行 餐點二-->
@@ -63,9 +61,7 @@
                         <p>一般時段</p>
                     </div>
                     <div class="col">
-                        <asp:LinkButton ID="LinkButton7" runat="server">
-                            <i class="fa fa-minus-square" style="color:#ffffff; position:absolute; right:10px; bottom:10px"></i>
-                        </asp:LinkButton>
+                        <asp:Button ID="Button2" runat="server" style="position:absolute; right:10px; bottom:10px" Text="+"/>
                     </div>
                 </div>
             </div>

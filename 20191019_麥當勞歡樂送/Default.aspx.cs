@@ -13,18 +13,18 @@ public partial class _Default : System.Web.UI.Page
     }
 
     // 餐點一 延伸圖片
-    Boolean close = true;
-    protected void LinkButton6_Click(object sender, EventArgs e)
+    protected void Button1_Click(object sender, EventArgs e)
     {
-        if (close)
+        if (!Panel1.Visible)
         {
-            meal_1.Attributes["style"] = "display:block";
-            close = false;
+            Panel1.Visible = true;
+            Button1.Text = "-";
         }
         else
         {
-            meal_1.Attributes["style"] = "display:";
-            close = true;
+            Panel1.Visible = false;
+            Button1.Text = "+";
         }
+        Panel1.Visible = Panel1.Visible;
     }
 }
