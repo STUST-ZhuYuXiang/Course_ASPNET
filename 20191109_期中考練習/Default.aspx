@@ -34,12 +34,12 @@
             <!--內容列 (套用 content)-->
             <div class="content row">
                 <!--左邊_主要內容 (套用 contentL)-->
-                <div class="contentL col-md-10 col-lg-10">
-                    
+                <div class="contentL col-xs-12 col-sm-12 col-md-10 col-lg-10">
+                    <p></p>
                 </div>
 
                 <!--右邊_固定導覽行 (套用 contentR)-->
-                <div class="contentR col-md-2 col-lg-2">
+                <div class="contentR col-xs-12 col-sm-12 col-md-2 col-lg-2">
                     <p>SHOP</p>
                     <asp:LinkButton ID="L_Btn_all" runat="server">All</asp:LinkButton>
                     <br />
