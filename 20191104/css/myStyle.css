@@ -1,0 +1,44 @@
+﻿body {
+    margin:0;
+    padding-top:0;
+}
+
+.myheader {
+    width:100%;
+    height:50px;
+    background-color:#e56161;
+    position:fixed;
+    top:0;
+}
+
+.myfooter {
+    width:100%;
+    height:50px;
+    background-color:#e56161;
+    position:fixed;
+    bottom:0;
+}
+
+.myprod {
+    float:left;
+    position:relative;
+    text-align:center;
+}
+
+/* 改變圖片本身大小 */
+img {
+    width:60%;
+    height:60%;
+}
+
+.zoom {
+  padding: 2px;
+  transition: transform 1s; /* Animation */
+  margin: 0 auto;
+}
+
+/* 滑鼠焦點 */
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  opacity:1;
+}
