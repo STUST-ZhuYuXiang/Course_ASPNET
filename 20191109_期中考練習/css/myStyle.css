@@ -1,31 +1,47 @@
-﻿body {
+﻿﻿body {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header {
-    background-color: #ffffff;
-    border-bottom: 5px solid black;
-    padding-top: 5px;
     position: fixed;
-    z-index: 1;
-    width: 80%;
+    border-bottom: 3px solid black;
+    background-color: #ffffff;
+    width: 95%;
     top: 0;
+    padding-top: 5px;
+    margin-left: 30px;
+    margin-right: auto;
+    left: 14px;
 }
 
 .content {
     margin-top: 50px;
+    padding-right: 30px;
+    padding-left: 10px;
 }
 
-.contentL {
-    padding-left: 5px;
-    padding-right: 5px;
+.contentl {
+    width: 100%
 }
 
-.contentR {
-    background-color: #ffffff;
-    border-left: 5px solid black;
-    right: 0;
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.img {
+    float: left;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.contentr {
     position: fixed;
-    z-index: 1;
-    width: 80%;
+    background-color: #ffffff;
+    border-left: 3px solid black;
+    height: 80%;
+    padding-left: 30px;
     right: 0;
+    top: 96px;
 }
